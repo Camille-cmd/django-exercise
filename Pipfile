@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+dj-rest-auth = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+django-filter = "*"
+djangorestframework = "*"
+faker = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

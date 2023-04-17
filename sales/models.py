@@ -73,3 +73,7 @@ class Sale(models.Model):
 
     def __str__(self):
         return f"{self.date} - {self.quantity} {self.article.name}"
+
+    @property
+    def total_price(self):
+        return self.quantity * self.unit_selling_price

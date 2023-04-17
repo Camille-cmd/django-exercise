@@ -10,7 +10,7 @@ urlpatterns = [
         "v1/",
         include(
             [
-                path("", include(router.urls)),
+                path("",  include('sales.urls')),
             ]
         ),
     )
