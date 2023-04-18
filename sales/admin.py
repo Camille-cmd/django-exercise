@@ -7,7 +7,7 @@ from sales.models import Sale, Article
 class SaleAdmin(admin.ModelAdmin):
     pass
 
+
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
     pass
-
